@@ -19,5 +19,38 @@ int main(){
     cout<<"To consecutively add the number by 1, ++var is used, the value of a is = "<<++a<<endl;
     cout<<"To consecutively subtract the number by 1, --var is used, the value of a is = "<<--a<<endl;
 
+    //assignment operators -> used to assign values to variables
+    int k=3,j=5;
+    char d= 'd';
+
+    //comparison operktor
+    cout<<"Following are the comparison operators";
+
+    cout<<"The value of k==j is "<<(k==j)<<endl;
+    cout<<"The value of k>j is "<<(k>j)<<endl;
+    cout<<"The value of k<j is "<<(k<j)<<endl;
+    cout<<"The value of k>=j is "<<(k>=j)<<endl;
+    cout<<"The value of k<=j is "<<(k<=j)<<endl;
+    
+
+    //logical operators
+    cout<<"The value of logical operator is,If both conditions are true then the value will be returned, this is the logical AND operator "<<((k==j)&&(k<j))<<endl;
+    cout<<"logical OR operator, the value is "<<((k==j)||(k<j))<<endl;
+    //0 for false,1 for true
+    cout<<"logical NOT operator, the value is "<<(!(k==j))<<endl;
+    
+
+
+
+
+
+
+
+
+
+
     return 0;
+
+
+
 }
